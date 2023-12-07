@@ -1,13 +1,13 @@
-/*---------------------------------------------------------------------------------
+*---------------------------------------------------------------------------------
 
-	Theme Name: Hemingway
-    Text Domain: hemingway
-	Version: 2.3.2
-	Description: Hemingway is a clean and beautiful two-column theme for bloggers. It features a responsive design, retina-ready assets, Block Editor support, full-width header image with parallax scrolling effect, custom accent color settings, custom logo upload, and editor styles. Demo: https://andersnoren.se/themes/hemingway/
+	Theme Name: mfc-balsania
+	Text Domain: mfc-balsania
+	Version: 1.0
+	Description: customized theme for mfc-balsania and based on Hemingway by Anders Noren.
 	Tags: blog, two-columns, right-sidebar, custom-colors, custom-header, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks
-	Author: Anders Norén
+	Author: Anders Norén / Julian Veit
 	Author URI: https://andersnoren.se
-	Theme URI: https://andersnoren.se/teman/hemingway-wordpress-theme/
+	Theme URI: https://andersnoren.se/teman/mfc-balsania-wordpress-theme/
 	License: GNU General Public License version 2.0
 	License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	Tested up to: 6.0
@@ -596,7 +596,7 @@ input[type="submit"]:hover {
 
 .header-inner {
 	position: relative;
-	text-align: center;
+	text-align: left;
 	z-index: 2;
 }
 
@@ -690,7 +690,7 @@ input[type="submit"]:hover {
 }
 
 .blog-menu > li + li:before {
-	color: #444;
+	color: #f21a1a;
 	content: "/";
 	display: block;
 	font-size: 16px;
@@ -2495,7 +2495,7 @@ p.form-allowed-tags {
 
 	.blog-search,
 	.navigation {
-		background-color: #282828;
+		background-color: #444;
 	}
 
 	.blog-search .search-form .search-submit {
@@ -2510,7 +2510,7 @@ p.form-allowed-tags {
 	}
 
 	.mobile-menu a {
-		background-color: #282828;
+		background-color: #7f7f7f;
 		border-bottom: 1px solid rgba( 255, 255, 255, 0.1 );
 		color: rgba( 255, 255, 255, 0.4 );
 		display: block;

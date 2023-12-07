@@ -21,7 +21,7 @@
 		}
 		?>
 
-		<a class="skip-link button" href="#site-content"><?php esc_html_e( 'Skip to the content', 'hemingway' ); ?></a>
+		<a class="skip-link button" href="#site-content"><?php esc_html_e( 'Skip to the content', 'mfc-balsania' ); ?></a>
 	
 		<div class="big-wrapper">
 	
@@ -36,7 +36,7 @@
 						<?php 
 
 						$custom_logo_id 	= get_theme_mod( 'custom_logo' );
-						$legacy_logo_url 	= get_theme_mod( 'hemingway_logo' );
+						$legacy_logo_url 	= get_theme_mod( 'mfc-balsania_logo' );
 
 						$blog_title 		= get_bloginfo( 'title' );
 						$blog_description 	= get_bloginfo( 'description' );
@@ -90,21 +90,19 @@
 			<div class="navigation section no-padding bg-dark">
 			
 				<div class="navigation-inner section-inner group">
-				
 					<div class="toggle-container section-inner hidden">
-			
 						<button type="button" class="nav-toggle toggle">
 							<div class="bar"></div>
 							<div class="bar"></div>
 							<div class="bar"></div>
-							<span class="screen-reader-text"><?php _e( 'Toggle mobile menu', 'hemingway' ); ?></span>
+							<span class="screen-reader-text"><?php _e( 'Toggle mobile menu', 'mfc-balsania' ); ?></span>
 						</button>
 						
 						<button type="button" class="search-toggle toggle">
 							<div class="metal"></div>
 							<div class="glass"></div>
 							<div class="handle"></div>
-							<span class="screen-reader-text"><?php _e( 'Toggle search field', 'hemingway' ); ?></span>
+							<span class="screen-reader-text"><?php _e( 'Toggle search field', 'mfc-balsania' ); ?></span>
 						</button>
 											
 					</div><!-- .toggle-container -->
@@ -112,8 +110,8 @@
 					<div class="blog-search hidden">
 						<?php get_search_form(); ?>
 					</div><!-- .blog-search -->
-				
 					<ul class="blog-menu">
+
 						<?php if ( has_nav_menu( 'primary' ) ) {
 							wp_nav_menu( array( 
 								'container' 		=> '', 

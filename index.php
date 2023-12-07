@@ -3,7 +3,6 @@
 <main class="wrapper section-inner group" id="site-content">
 
 	<div class="content left">
-		
 		<div class="posts">
 
 			<?php
@@ -13,9 +12,9 @@
 			$archive_title = get_the_archive_title();
 			$archive_description = get_the_archive_description( '', '' );
 
-			$archive_current_page_str = sprintf( __( 'Page %1$s of %2$s', 'hemingway' ), $paged, $wp_query->max_num_pages );
+			$archive_current_page_str = sprintf( __( 'Page %1$s of %2$s', 'mfc-balsania' ), $paged, $wp_query->max_num_pages );
 
-			$archive_subtitle = sprintf( __( 'Page %1$s of %2$s', 'hemingway' ), $paged, $wp_query->max_num_pages );
+			$archive_subtitle = sprintf( __( 'Page %1$s of %2$s', 'mfc-balsania' ), $paged, $wp_query->max_num_pages );
 
 			if ( ( is_archive() || is_search() ) && 1 < $wp_query->max_num_pages ) {
 				$archive_title .= ' <span>(' . $archive_current_page_str . ')</span>';
@@ -56,7 +55,7 @@
 				
 						<div class="post-content">
 						
-							<p><?php _e( 'No results. Try again, would you kindly?', 'hemingway' ); ?></p>
+							<p><?php _e( 'No results. Try again, would you kindly?', 'mfc-balsania' ); ?></p>
 							
 							<?php get_search_form(); ?>
 						
@@ -74,9 +73,9 @@
 		
 			<div class="post-nav archive-nav group">
 						
-				<?php echo get_next_posts_link( __( '&laquo; Older<span> posts</span>', 'hemingway' ) ); ?>
+				<?php echo get_next_posts_link( __( '&laquo; Older<span> posts</span>', 'mfc-balsania' ) ); ?>
 							
-				<?php echo get_previous_posts_link( __( 'Newer<span> posts</span> &raquo;', 'hemingway' ) ); ?>
+				<?php echo get_previous_posts_link( __( 'Newer<span> posts</span> &raquo;', 'mfc-balsania' ) ); ?>
 								
 			</div><!-- .post-nav.archive-nav -->
 		

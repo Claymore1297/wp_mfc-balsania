@@ -55,11 +55,12 @@
 			<p class="credits-left">
 				&copy; <?php echo date( 'Y' ); ?> <a href="<?php echo esc_url( home_url() ); ?>"><?php bloginfo( 'name' ); ?></a>
 			</p>
-			
+
 			<p class="credits-right">
-				<span><?php printf( __( 'Theme by <a href="%s">Anders Noren</a>', 'hemingway' ), 'https://andersnoren.se' ); ?></span> &mdash; <a title="<?php _e( 'To the top', 'hemingway' ); ?>" class="tothetop"><?php _e( 'Up', 'hemingway' ); ?> &uarr;</a>
+				<span><?php printf( __( 'Theme by <a href="%s">Anders Noren</a>', 'mfc-balsania' ), 'https://andersnoren.se' ); ?>
+				<span><?php printf( __( 'Co authored by <a href="%s">Julian Veit</a>', 'mfc-balsania' ), 'https://github.com/Claymore1297' ); ?>
+				</span> &mdash; <a title="<?php _e( 'To the top', 'mfc-balsania' ); ?>" class="tothetop"><?php _e( 'Up', 'mfc-balsania' ); ?> &uarr;</a>
 			</p>
-					
 		</div><!-- .credits-inner -->
 		
 	</div><!-- .credits -->
