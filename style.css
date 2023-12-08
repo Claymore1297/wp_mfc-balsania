@@ -73,7 +73,7 @@ body {
 	background: #fff;
 	border: none;
 	color: #444;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Tahoma', sans-serif;
 	font-size: 18px;
 }
 
@@ -545,7 +545,7 @@ input[type="submit"]:hover {
 }
 
 .section-inner {
-	width: 1040px;
+	width: 2080px;
 	max-width: 86%;
 	margin: 0 auto;
 }
@@ -1426,7 +1426,7 @@ input[type="submit"]:hover {
 
 :root .wp-block-quote.is-large p,
 :root .wp-block-quote.is-style-large p {
-	font-size: 1.2em;
+	/*font-size: 1.2em;*/
 	font-style: normal;
 }
 
@@ -1438,7 +1438,7 @@ input[type="submit"]:hover {
 }
 
 .wp-block-pullquote.is-style-solid-color blockquote cite {
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 }
 
 /* Block: Quote ------------------------------ */
