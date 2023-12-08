@@ -616,6 +616,9 @@ input[type="submit"]:hover {
 	max-height: 250px;
 	max-width: 100%;
 	width: auto;
+	border-radius: 55px;
+	padding: 1px;
+	background: rgba(255, 275, 275, 0.5);
 }
 
 .blog-info {
