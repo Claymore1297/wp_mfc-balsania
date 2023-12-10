@@ -256,7 +256,7 @@ endif;
 if ( ! function_exists( 'hemingway_custom_more_link' ) ) :
 	function hemingway_custom_more_link( $more_link, $more_link_text ) {
 
-		return str_replace( $more_link_text, __( 'Continue reading', 'hemingway' ), $more_link );
+		return str_replace( $more_link_text, __( 'weiterlesen', 'hemingway' ), $more_link );
 
 	}
 	add_filter( 'the_content_more_link', 'hemingway_custom_more_link', 10, 2 );
