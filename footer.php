@@ -59,7 +59,7 @@
 			<p class="credits-right">
 				<span><?php printf( __( 'Theme by <a href="%s">Anders Noren</a>', 'mfc-balsania' ), 'https://andersnoren.se' ); ?>
 				<span><?php printf( __( 'customized by <a href="%s">Julian Veit</a>', 'mfc-balsania' ), 'https://github.com/Claymore1297' ); ?>
-				</span> &mdash; <a title="<?php _e( 'To the top', 'mfc-balsania' ); ?>" class="tothetop"><?php _e( 'Up', 'mfc-balsania' ); ?> &uarr;</a>
+				</span> &mdash; <a title="<?php _e( 'To the top', 'mfc-balsania' ); ?>" class="tothetop"><?php _e( 'hoch', 'mfc-balsania' ); ?> &uarr;</a>
 			</p>
 		</div><!-- .credits-inner -->
 		
