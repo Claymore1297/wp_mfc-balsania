@@ -706,7 +706,7 @@ input[type="submit"]:hover {
 }
 
 .blog-menu a {
-	color: rgba( 255, 255, 255, 0.5 );
+	color: rgba( 255, 255, 255, 0.8 );
 	display: block;
 	font-size: 13px;
 	letter-spacing: 1px;
@@ -2515,7 +2515,8 @@ p.form-allowed-tags {
 	.mobile-menu a {
 		background-color: #7f7f7f;
 		border-bottom: 1px solid rgba( 255, 255, 255, 0.1 );
-		color: rgba( 255, 255, 255, 0.4 );
+		/*color: rgba( 255, 255, 255, 0.9 );*/
+		color: #fff;
 		display: block;
 		font-size: 13px;
 		letter-spacing: 1px;
@@ -2526,6 +2527,7 @@ p.form-allowed-tags {
 	.mobile-menu a:hover,
 	.mobile-menu .current-menu-item a {
 		color: #fff;
+		font-weight: bold;
 	}
 
 	.mobile-menu ul a {
