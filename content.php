@@ -122,14 +122,14 @@
 											
 					<?php if ( $prev_post ) : ?>
 						<a class="post-nav-older" href="<?php the_permalink( $prev_post->ID ); ?>">
-							<h5><?php _e( 'Previous post', 'hemingway' ); ?></h5>
+							<h5><?php _e( 'vorheriger Eintrag', 'hemingway' ); ?></h5>
 							<?php echo get_the_title( $prev_post->ID ); ?>
 						</a>
 					<?php endif; ?>
 					
 					<?php if ( $next_post ) : ?>
 						<a class="post-nav-newer" href="<?php the_permalink( $next_post->ID ); ?>">
-							<h5><?php _e( 'Next post', 'hemingway' ); ?></h5>
+							<h5><?php _e( 'nächster Eintrag', 'hemingway' ); ?></h5>
 							<?php echo get_the_title( $next_post->ID ); ?>
 						</a>
 					<?php endif; ?>
