@@ -818,7 +818,12 @@ input[type="submit"]:hover {
 /* -------------------------------------------------------------------------------- */
 
 
-.post,
+.post {
+	border-bottom: 4px solid #eee;
+	margin-bottom: 5%;
+	padding-bottom: 5%;
+}
+
 .page {
 	border-bottom: 4px solid #eee;
 	margin-bottom: 10%;
