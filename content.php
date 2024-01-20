@@ -100,12 +100,6 @@
 	<?php if ( is_singular() && $post_type_outputs_post_meta ) : ?>
 	
 		<div class="post-meta-bottom">
-
-			<?php if ( get_the_category() ) : ?>
-															
-				<p class="post-categories"><span class="category-icon"><span class="front-flap"></span></span> <?php the_category( ', ' ); ?></p>
-	
-			<?php endif; ?>
 			
 			<?php if ( has_tag() ) : ?>
 				<p class="post-tags"><?php the_tags( '', '' ); ?></p>
@@ -129,7 +123,7 @@
 					
 					<?php if ( $next_post ) : ?>
 						<a class="post-nav-newer" href="<?php the_permalink( $next_post->ID ); ?>">
-							<h5><?php _e( 'nÃ¤chster Eintrag', 'hemingway' ); ?></h5>
+							<h5><?php _e( 'nächster Eintrag', 'hemingway' ); ?></h5>
 							<?php echo get_the_title( $next_post->ID ); ?>
 						</a>
 					<?php endif; ?>
