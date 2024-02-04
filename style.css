@@ -157,7 +157,7 @@ input#s,
 
 .screen-reader-text:focus {
 	background-color: #f1f1f1;
-	border-radius: 3px;
+	border-radius: 5px;
 	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
 	clip: auto !important;
 	color: #21759b;
@@ -441,7 +441,7 @@ textarea {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	background-color: #f2f2f2;
-	border-radius: 3px;
+	border-radius: 5px;
 	border: 1px solid #E1E1E3;
 	box-shadow: none;
 	color: #333;
@@ -486,7 +486,7 @@ input[type="reset"],
 input[type="submit"] {
 	-webkit-appearance: none;
 	-moz-appearance: none;
-	background-color: #1d1d1d;
+	background-color: #7f7f7f;
 	border: none;
 	border-radius: 4px;
 	color: #fff;
@@ -501,6 +501,20 @@ input[type="submit"] {
 	transition: background-color .1s linear, border-color .1s linear, color .1s linear;
 }
 
+a.more-link{
+    color: #1d1d1d;
+    background-color: #fff;
+	border-radius: 5px;
+	border: 2px solid #7f7f7f;
+}
+
+a.more-link:hover{
+    color: #fff;
+    background-color: #7f7f7f;
+	border-radius: 5px;
+	border: 2px solid #1d1d1d;
+}
+
 button:hover,
 .button:hover,
 .faux-button:hover,
@@ -510,7 +524,7 @@ a.more-link:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-	background-color: #1abc9c;
+	background-color: #7f7f7f;
 	color: #fff;
 	cursor: pointer;
 	text-decoration: none;
@@ -897,7 +911,7 @@ input[type="submit"]:hover {
 	top: 5%;
 	right: 0;
 	padding: 8px 10px;
-	border-radius: 3px 0 0 3px;
+	border-radius: 5px 0 0 5px;
 	background: #1abc9c;
 	color: #fff;
 	font-size: 0.7em;
@@ -917,7 +931,7 @@ input[type="submit"]:hover {
 
 .media-caption {
 	background-color: rgba( 38, 38, 38, 0.75 );
-	border-radius: 3px;
+	border-radius: 5px;
 	color: #fff;
 	display: inline-block;
 	line-height: 130%;
@@ -1014,7 +1028,7 @@ input[type="submit"]:hover {
 	padding: 40px;
 	background: #262626;
 	color: #fff;
-	border-radius: 3px;
+	border-radius: 5px;
 }
 
 .post-preview.format-quote .post-content blockquote {
@@ -1352,7 +1366,7 @@ input[type="submit"]:hover {
 .wp-block-file {
 	align-items: center;
 	border: 1px solid #eee;
-	border-radius: 3px;
+	border-radius: 5px;
 	display: flex;
 	justify-content: space-between;
 	padding: 1em;
@@ -1397,8 +1411,8 @@ input[type="submit"]:hover {
 	background: transparent;
 	border-bottom: 4px solid #444;
 	border-top: 4px solid #444;
-	margin: 2em 0;
-	padding: 3em 0;
+	margin: 1em 0;
+	padding: 1em 0;
 	text-align: center;
 }
 
@@ -1544,7 +1558,7 @@ code, kbd, pre {
 .post-content kbd,
 .post-content code {
 	padding: 5px;
-	border-radius: 3px;
+	border-radius: 5px;
 }
 
 .post-content dl { line-height: 160%; }
@@ -2156,7 +2170,7 @@ p.form-allowed-tags {
 
 .search-form .search-field {
 	background-color: #fff;
-	border-radius: 3px 0 0 3px;
+	border-radius: 5px 0 0 5px;
 	border-right-width: 0;
 	padding: 16px 18px;
 	width: 100%;
@@ -2164,7 +2178,7 @@ p.form-allowed-tags {
 
 .search-form .search-submit {
 	background-color: #1abc9c;
-	border-radius: 0 3px 3px 0;
+	border-radius: 0 5px 5px 0;
 	display: block;
 	flex-shrink: 0;
 	font-size: 13px;
@@ -2507,7 +2521,7 @@ p.form-allowed-tags {
 	}
 
 	.blog-search .search-form .search-submit {
-		border: none;
+		border: 2px solid #1d1d1d;
 	}
 
 	.mobile-menu,
@@ -2520,7 +2534,6 @@ p.form-allowed-tags {
 	.mobile-menu a {
 		background-color: #7f7f7f;
 		border-bottom: 1px solid rgba( 255, 255, 255, 0.1 );
-		/*color: rgba( 255, 255, 255, 0.9 );*/
 		color: #fff;
 		display: block;
 		font-size: 13px;
@@ -2907,4 +2920,39 @@ p.form-allowed-tags {
 		margin-top: 40px;
 	}
 
+}
+    /* Balsania edits ------------------------ */
+.header-cover,
+.footer{
+	border-radius: 5px 5px 0 0;
+}
+.navigation,
+.credits{
+	border-radius: 0 0 5px 5px;
+}
+.credits{
+	margin-bottom:5px;
+}
+
+.post-content blockquote{
+	border-radius: 10px;
+	padding: 10px;
+	border: 1px dotted #1d1d1d;
+}
+
+.wp-block-gallery img,
+.wp-block-image img,
+.wp-block-media-text.has-media-on-the-right div,
+.balsania_text_w_image,
+.pdfemb-viewer,
+.wpgmza_map
+{
+  border-radius: 5px;
+}
+
+.wp-block-table.is-style-stripes
+ {
+	border: 2px solid #1d1d1d;
+	border-radius: 10px;
+	padding: 10px;
 }
